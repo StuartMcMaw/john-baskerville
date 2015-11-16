@@ -13,3 +13,5 @@ John Baskerville
 - [version 2](https://StuartMcMaw.github.io/john-baskerville/v2.html)
 
 - [version 3](https://StuartMcMaw.github.io/john-baskerville/v3.html)
+
+- [version 4](https://StuartMcMaw.github.io/john-baskerville/v4.html)
