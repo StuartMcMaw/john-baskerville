@@ -12,24 +12,57 @@ body{
     
 section {padding: 2em 0 2em 0 }
 
-/* TYPOGRAPHY */
+/* ------------- TYPOGRAPHY --------------- */
 
     h1, h2, h3 {
         font-weight: normal;
         color: #c06;
-        
+        text-align: center;
     }
     
-    h1 {font-size: 3.375em;}
-    h2 {
-        
+    h1 {font-size: 3.375em;
+    line-height: 1.3em}
+    h2 {font-size: 2.25em;}
     h3 {font-size: 1.5em;}
+
+header h2{
     
+    font-style: italic;
+    font-size: 1.8em;
+    margin: -0.5em 0 1em 0;
+
+}
+
+
 .intro {
     font-size: 1.25em;
     line-height: 1.9em;
 
 }
+
+
+blockquote{
+    
+    padding: 2em 0;
+    font-size: 1.75em;
+    line-height: 1.5em;
+    margin:  0;
+}
+
+cite{
+    font-size: .75em;
+    
+    
+}
+
+
+.anchor{
+    text-transform: uppercase;
+    font-size: .75em;
+}
+
+
+
 
 /* ------------- LINKS --------------- */
 
@@ -37,13 +70,49 @@ a{
     color: #c06;
     text-decoration: none;
     text-transform: uppercase;
-    letter-spacing: 2px;
+   
 
 }
 
 a:hover{
-    color: cornflowerblue;
+    color: darkcyan;
     border-bottom: 1px dotted;
     
+    
+}
+
+
+/* ------------- NAV ----------------- */
+
+nav {
+    
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    text-transform: uppercase;
+    
+}
+
+nav ul{
+    text-align: center;
+    letter-spacing: 2px;
+    
+    
+}
+
+nav ul li {
+    display: inline;
+    margin: 20px;
+    
+}
+
+
+
+
+/* ------------- FOOTER ----------------- */
+
+footer{
+    line-height: 1em;
+    font-size: 15px;
+    padding-bottom: 2em;
     
 }
