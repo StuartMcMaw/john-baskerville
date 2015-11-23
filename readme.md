@@ -20,3 +20,8 @@ John Baskerville
 ------------------
 
 - [version 4](https://StuartMcMaw.github.io/john-baskerville/v4.html)
+
+23rd November 2015
+------------------
+
+- [version 5](https://StuartMcMaw.github.io/john-baskerville/v5.html)
