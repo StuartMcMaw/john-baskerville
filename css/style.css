@@ -35,7 +35,12 @@ section {padding: 2em 0 2em 0 }
 a{
     color: #c06;
     text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 
+}
 
-
+a:hover{
+    color: aqua;   
+    
 }
