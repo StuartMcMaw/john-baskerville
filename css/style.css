@@ -12,8 +12,8 @@ body{
             min-width: 320px;
             font-size: 100%; 
             font-family: 'Libre Baskerville', 'Georgia', 'Times', 'Times New Roman' serif;
-            color: #666666;
-            background-color: #f0f0f0;
+            background: #333 url(../images/BG.png;) repeat-x;
+            color: #333;
             margin: auto;
             line-height: 2em;}
     
@@ -29,8 +29,10 @@ section {padding: 2em 0 2em 0 }
     
     h1 {font-size: 3.375em;
     line-height: 1.3em}
+    
     h2 {font-size: 2.25em;
     padding-bottom: 0.5em}
+    
     h3 {font-size: 1.5em;}
 
 header h2{
@@ -70,16 +72,12 @@ img {
     display: block;
     margin: 1em auto;
     padding: 0;
-    max-width: 100%;
-
-    
-}
+    max-width: 100%;}
 
 .JBask{
         float: right;
     position: relative;
-    margin: .5em 1em 0 2em;
-}
+    margin: .5em 1em 0 2em;}
     
 
 
