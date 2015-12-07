@@ -66,8 +66,21 @@ cite{
 
 /* --------------- IMAGES ------------------ */
 
+img {
+    display: block;
+    margin: 1em auto;
+    padding: 0;
+    max-width: 100%;
 
+    
+}
 
+.JBask{
+        float: right;
+    position: relative;
+    margin: .5em 1em 0 2em;
+}
+    
 
 
 /* --------------- TABLE ------------------ */
@@ -160,13 +173,13 @@ footer hr{
 @media (max-width: 30em) {
     
     body{
-        margin: auto 0;
-        background: #BEE9C7;
+        margin: auto 0 ;
         width: 100%;
         font-size: 110%;}
     
     article {
-        width: 90%;}
+        width: 90%;
+        margin: auto;}
     
     
     h1{ font-size: 2.9em;}
