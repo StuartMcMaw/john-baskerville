@@ -30,3 +30,5 @@ John Baskerville
 ------------------
 
 - [version 6](https://StuartMcMaw.github.io/john-baskerville/v6.html)
+
+- [version 8](https://StuartMcMaw.github.io/john-baskerville/v8.html)
