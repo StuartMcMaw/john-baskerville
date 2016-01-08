@@ -1,0 +1,200 @@
+/* --------- CSS RESET -------- */
+
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    line-height: 1em;}
+
+body{
+            width: 75%;
+            max-width:650px;
+            min-width: 320px;
+            font-size: 100%; 
+            font-family: 'Libre Baskerville', 'Georgia', 'Times', 'Times New Roman' serif;
+            background: #f1f1f1 url(images/bg.png;) repeat-x;
+            color: #333;
+            margin: auto;
+            line-height: 2em;}
+    
+section {padding: 2em 0 2em 0 }
+
+/* ------------- TYPOGRAPHY --------------- */
+
+    h1, h2, h3 {
+        font-weight: normal;
+        color: #c06;
+        text-align: center;
+        line-height: 10em:}
+    
+/* hgroup h1 {text-shadow: 2px 2px 0 #fff, 4px 3px 1px  rgba(0,0,0,0.5)} */
+
+    h1 {font-size: 3.375em;
+    line-height: 1.3em}
+    
+    h2 {font-size: 2.25em;
+    padding-bottom: 0.5em}
+    
+    h3 {font-size: 1.5em;}
+
+header h2{
+    
+    font-style: italic;
+    font-size: 1.8em;
+    margin: 0.5em 0 1em 0;}
+
+
+.intro {
+    font-size: 1.25em;
+    line-height: 1.9em;}
+
+p{
+ line-height: 1.7em;
+    padding-bottom: 1em;}
+
+blockquote{
+    
+    padding: 1em 0;
+    font-size: 1.75em;
+    line-height: 1.3em;
+    margin:  0;
+    text-indent: -13px;}
+
+cite{
+    font-size: .75em;}
+
+
+.anchor{
+    text-transform: uppercase;
+    font-size: .75em;}
+
+/* --------------- IMAGES ------------------ */
+
+img {
+    display: block;
+    margin: 1em auto;
+    padding: 0;
+    max-width: 100%;}
+
+.JBask{
+        float: right;
+    position: relative;
+    margin: .5em 1em 0 2em;}
+    
+
+
+/* --------------- TABLE ------------------ */
+
+table{
+    margin: auto;
+    width: 100%;
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 2px;
+    border-color: #c06;}
+
+caption{
+    margin-bottom: 1.5em;
+    text-transform: uppercase;}
+
+table.head, th{
+    text-transform: uppercase;
+    background-color: #C06;
+    text-align: left;
+    font-weight: normal;}
+
+th, td{
+    padding: .6em;}
+
+th{color: white;}
+
+tr{color: #c06;}
+
+
+table, th, td{
+    border: 1px solid #C06;}
+
+
+
+
+/* ------------- LINKS --------------- */
+
+a{
+    color: #c06;
+    text-decoration: none;
+    text-transform: uppercase;}
+
+a:hover{
+    color: darkcyan;
+    border-bottom: 1px dotted;}
+
+
+/* ------------- NAV ----------------- */
+
+nav {
+    
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    text-transform: uppercase;
+    padding: 15px;}
+
+nav ul{
+    text-align: center;
+    letter-spacing: 2px;}
+
+nav ul li {
+    display: inline;
+    margin: 20px;}
+
+
+
+
+/* ------------- FOOTER ----------------- */
+
+footer{
+    line-height: 1.2em;
+    font-size: 15px;
+    padding-bottom: 2em;}
+
+footer hr{ 
+    margin-bottom: auto;}
+
+.contact {
+    padding-top: 2em;
+    margin: auto;
+    text-align: center;}
+
+
+
+
+
+
+/* -------------- SMARTPHONE ---------------- */
+@media (max-width: 30em) {
+    
+    body{
+        margin: auto 0 ;
+        width: 100%;
+        font-size: 110%;}
+    
+    article {
+        width: 90%;
+        margin: auto;}
+    
+    
+    h1{ font-size: 2.9em;}
+    
+    blockquote{
+        padding:20px;
+        line-height: 1.5em}
+    
+    hgroup h2 { font-size: 1.5em;
+        padding-top: 0.5em}
+    
+    nav ul li { font-size: .75em;
+        margin: 10px;}
+
+    
+    
+}
+        
